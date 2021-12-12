@@ -35,6 +35,7 @@ int main() {
 
   for (int tt=0;tt<1000;tt++) {
 
+    dbg(m);
     // increase energy by 1
     // collect the indexes where enery is greater then nine
     for (int i=0;i<10;i++) {
